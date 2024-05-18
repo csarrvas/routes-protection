@@ -1,6 +1,6 @@
-import { ReactElement, useContext } from "react"
-import { AppContext } from "../context/AppContext"
-import { Navigate } from "react-router-dom"
+import { ReactElement, useContext } from 'react'
+import { AppContext } from 'context/AppContext'
+import { Navigate } from 'react-router-dom'
 
 const PrivateRoute = ({ component }: { component: ReactElement }) => {
   const { isLogged } = useContext(AppContext)
